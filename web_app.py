@@ -11,7 +11,7 @@ def get_fullschema(conn):
     schema = "\n".join(schema)
     return schema
 
-st.title("Computer Store SQL Database")
+st.title("SQLite Online Query Engine")
 
 uploaded_file = st.file_uploader("Upload Database", type='db')
 submit_file = st.button("Upload")
